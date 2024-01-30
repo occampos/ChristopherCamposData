@@ -1,8 +1,0 @@
-
-
-/* view project button color 77*/
-/* all subtext 78 */
-/*email hover 79*/
-/* all headings 80*/
-/* name email message 81*/
-/* name email message texboxes 82*/
