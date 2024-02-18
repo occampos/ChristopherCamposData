@@ -176,7 +176,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 5em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -186,6 +186,12 @@ input, select, textarea {
 		margin: 0 0 0.5em 0;
 	}
 
+	h2, h3, h4, h5, h6 {
+		color: #ffffff; /* all headings 80*/
+		font-weight: bold;
+		line-height: 1.5;
+		margin: 0 0 0.5em 0;
+	}
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
@@ -220,7 +226,7 @@ input, select, textarea {
 			}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.40em;
 	}
 
 	h3 {
@@ -1828,6 +1834,7 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
+		margin-top: -75px; /* Adjust this value as needed to increase or decrease space between buttons */
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -1850,7 +1857,7 @@ input, select, textarea {
 		line-height: 4.75em;
 		outline: 0;
 		padding: 0 3.75em;
-		position: relative;
+		position: absolute;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -3042,7 +3049,10 @@ input, select, textarea {
 			}
 
 		.spotlights > section > .content {
-			padding: 7em 5em 2em 5em ;
+			padding-left: 50px;
+			padding-top: 150px;
+			padding-left: 50px;
+			padding-left: 50px;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3058,6 +3068,7 @@ input, select, textarea {
 			width: 50em;
 			height: 150px;
 			-ms-flex: 1;
+			margin-right: 0px; /* Adjust the value as needed */
 		}
 
 			.spotlights > section > .content > .inner {
@@ -3219,7 +3230,7 @@ input, select, textarea {
 			max-width: 100%;
 			width: 100em;
 			margin-left: -30px; /* Adjust as needed */
-			margin-top: -100px; /* Adjust as needed */
+			margin-top: -50px; /* Adjust as needed */
 		}
 
 			@media screen and (max-width: 1680px) {
@@ -3267,7 +3278,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #232433;
 		}
 
 		.wrapper.style3-alt {
