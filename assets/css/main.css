@@ -1863,13 +1863,13 @@ input, select, textarea {
 		text-transform: uppercase;
 		white-space: nowrap;
 	}
-	
+
 	.download {
-		margin-top: -20px; /* Adjust the value as needed to move the button */
+		margin-top: 20px; /* Adjust the value as needed to move the button */
 	}
 
 	.preview {
-		margin-top: -20px; /* Adjust the value as needed to move the button */
+		margin-top: 20px; /* Adjust the value as needed to move the button */
 		margin-left: 300px; /* Adjust the value as needed to move the button */
 	}
 		input[type="submit"]:after,
