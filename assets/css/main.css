@@ -2935,7 +2935,7 @@ input, select, textarea {
 		}
 
 		.split.style1 > :nth-child(2n - 1) {
-			width: calc(66.66666% - 2.5em);
+			width: 700px;
 		}
 
 		.split.style1 > :nth-child(2n) {
