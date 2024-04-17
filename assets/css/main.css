@@ -211,7 +211,7 @@ input, select, textarea {
 				background-image: -moz-linear-gradient(to right, #ffffff, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #ffffff, #b74e91);
 				background-image: -ms-linear-gradient(to right, #ffffff, #b74e91);
-				background-image: linear-gradient(to right, #ffffff, #b74e91);
+				background-image: linear-gradient(to right, #E59030, #000000);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3266,7 +3266,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #000000;
 		}
 
 		.wrapper.style1 {
@@ -3424,7 +3424,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #000000;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3463,7 +3463,7 @@ input, select, textarea {
 
 					#header > nav > ul > li a {
 						border: 0;
-						color: rgba(255, 255, 255, 0.35);
+						color: #ffffff;
 						display: inline-block;
 						font-size: 0.6em;
 						font-weight: bold;
@@ -3567,7 +3567,7 @@ input, select, textarea {
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: #ffffff;
 	}
 
 	#header + #wrapper + #footer > .inner {
