@@ -8,7 +8,7 @@
 	<head>
 		<title>Optimizing Delivery - Olimpio Christopher Campos</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=0.9, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -39,7 +39,8 @@
 						<section id="description" class="wrapper">
 							<div class="inner">
 								<h2>Project Statement</h2>
-								<p style="margin-bottom: 30px"> AtliQ is a growing FMCG manufacturer, they serve customers across three seperate cities and look foward to expanding further. However, there has been a 
+								<p style="margin-bottom: 30px"> 
+									AtliQ is a growing FMCG manufacturer, they serve customers across three seperate cities and look foward to expanding further. However, there has been a 
 									noticeable trend of key customers opting not to renew their contracts with AtliQ due to service-related issues and so customer service and delivery efficiency 
 									has come into question. This has prompted management to prioritize addressing these concerns before expanding to other cities and requested their supply chain 
 									analytics team track delivery service levels.
@@ -51,9 +52,9 @@
 									<li><i>Machine Learning</i> and <i>Feature Importance</i> with <i>Python (scikit-learn)</i>
 								</ul>														
 								<h2>Project Description</h2>
-									<p style="margin-bottom: -80px;"> A Delivery Performance Dashboard was developed with Power BI to enable AtliQ analytics to effectively track delivery metrics and derive data-driven insights. Additionally, 
+									<p style="margin-bottom: -80px;"> 
+										A Delivery Performance Dashboard was developed with Power BI to enable AtliQ analytics to effectively track delivery metrics and derive data-driven insights. Additionally, 
 										a machine learning model and feature importance was employed to pinpoint the root causes of poor delivery metrics and provide actionable recommendations for improvement.
-
 									</p>
 							</div>
 						</section>
@@ -65,16 +66,17 @@
 								<iframe title="Optimizing Delivery" width="803" height="963" src="https://app.powerbi.com/view?r=eyJrIjoiN2NjNmI3NjctZjYyZi00MDYyLWFhZTctNTRkNjI5ZjlmMjJhIiwidCI6ImVkZmRlYWM0LTJkYjEtNGM3Yi1hYzU5LTRkYTkzMmE4MTA4YiIsImMiOjZ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 								<div style="text-align: left">
 									<p style="margin-top: 20px; margin-left: 80px" class="inner">
-									The Delivery Performance Dashboard presents a comprehensive overview of delivery operations, showcasing critical performance metrics essential for assessing performance 
-									against established benchmarks. Prominently displayed are %On Time, %In Full, and %On Time and In Full compared to their targets, providing valuable insights into our ability to meet customer 
-									expectations and contractual obligations. In addition to these key metrics, the dashboard tracks Line Fill Rate and Volume Fill Rate, offering valuable insights into inventory 
-									management and order fulfillment capabilities. This granular analysis empowers users to drill down into delivery performance data by time, customer, and city, enabling targeted improvement 
-									efforts where needed. By leveraging the insights provided by the dashboard, we are poised to enhance our delivery operations, optimize inventory management processes, and exceed customer 
-									expectations with every delivery.
+										The Delivery Performance Dashboard presents a comprehensive overview of delivery operations, showcasing critical performance metrics essential for assessing performance 
+										against established benchmarks. Prominently displayed are %On Time, %In Full, and %On Time and In Full compared to their targets, providing valuable insights into our ability to meet customer 
+										expectations and contractual obligations. In addition to these key metrics, the dashboard tracks Line Fill Rate and Volume Fill Rate, offering valuable insights into inventory 
+										management and order fulfillment capabilities. This granular analysis empowers users to drill down into delivery performance data by time, customer, and city, enabling targeted improvement 
+										efforts where needed. By leveraging the insights provided by the dashboard, we are poised to enhance our delivery operations, optimize inventory management processes, and exceed customer 
+										expectations with every delivery.
 									</p>
-									<p style="margin-top: -100px; margin-left: 80px" class="inner">
-									By using the dashboard it can be seen that key metrics are not meeting their goals. more xample of this
-										</p>
+									<p style="margin-top: -80px; margin-left: 80px" class="inner">
+										Utilizing the dashboard reveals it's evident that crucial metrics fall short of their intended benchmarks. Orders that are both On Time and In Full underperform by over 30%. This pattern can 
+										be observed in all customers and thus have valid reason to not renew their contracts with AtliQ.
+									</p>
 								</div>
 							</div>
 						</section>
@@ -82,13 +84,44 @@
 						<!-- Machine Learning section -->
 						<section id="machine_learning" class="wrapper">
 							<div class="inner" style="position: relative;">
-								<h2>Insights using Machine Learning</h2>
+								<h2 style="margin-top: -120px">Insights using Machine Learning</h2>
 								<div style="display: flex;">
-									<img src="images/feature_importance.png" alt="Description of the image" width="700" height="600" style="max-width: 100%;">
+									<img src="images/feature_importance.png" alt="Description of the image" width="700" height="600" style="max-width: 100%; margin-top: 40px">
 									<div style="margin-left: 100px;">
-										<p>Description of the visual and its importance goes here.Description of the visual and its importance goes here.Description of the visual and its importance goes here.Description of the visual and its importance goes here.Description of the visual and its importance goes here.</p>
+										<p>
+											Machine learning is also employed to further pinpoint the cause of underperforming key metrics. A model is developed that has the ability to predict whether or not a delivery is On Time,
+											In Full, or both with 60% accuracy. By measuring which feature or variable had the most importance in predicting delivery status we gain nuanced insights into whats contributing to 
+											metric underperformance.
+											In this case "Customer" and "City" are the most important features in determining an order's delivery status suggesting that the problem may be related to specific customers, cities or
+											departments that handle customer/city management. Certain customers might have unique requirements, preferences, or ordering patterns that contribute to delays. It could be that some customers 
+											consistently place rush orders, have complex delivery instructions, or require special handling, which affects delivery times. Also, different cities may present various logistical 
+											challenges that impact delivery times. Factors such as traffic congestion, distance from distribution centers, local regulations, or infrastructure issues could all influence delivery efficiency.
+										</p>
 									</div>
 								</div>
+							</div>
+						</section>
+
+						<!-- Description section -->
+						<section id="description" class="wrapper" style="margin-top: -240px">
+							<div class="inner">
+								<h2>Conclusion and Recommendation</h2>
+								<p style="margin-bottom: 30px"> 
+									Data analysis suggests that key customers are opting out of renewing thier contract with AtliQ due to poor delivery status metrics, a signfiicant portion of orders are late and incomplete. Further 
+									analysis suggests that this underperformance is city and customer specific. 
+									<br>
+									A possible solution is a position soley on quality control, a quality control specialist, responsible for monitoring and 
+									improving delivery performance in key cities or for specific customer segments. This individual would closely monitor metrics related to on-time and complete deliveries, identify patterns or recurring 
+									issues, and develop targeted strategies to address them. 
+									<br>
+									Process optmization can also be a possible focus, collaboration with relevant departments to optimize processes and workflows related to delivery 
+									operations in targeted cities or for specific customers. This could involve streamlining order processing, improving communication channels with customers, or optimizing delivery routes to mitigate 
+									logistical challenges.
+									<br>
+									<br>
+									Further analysis can be conducted that is customer or city specific. The quality control specialist would conduct in-depth analyses focusing on cities or customer segments exhibiting consistently poor delivery performance. 
+									By understanding the unique challenges and requirements of these areas or customers, tailored solutions can be developed to address them effectively.
+								</p>
 							</div>
 						</section>
 					</div>
